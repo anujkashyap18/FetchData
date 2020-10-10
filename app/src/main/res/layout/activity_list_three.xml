@@ -20,6 +20,8 @@
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/listThreeRecycler"
             android:layout_width="match_parent"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:listitem="@layout/custom_layout_for_list_three"
             android:layout_height="wrap_content"
             tools:ignore="MissingConstraints" />
 

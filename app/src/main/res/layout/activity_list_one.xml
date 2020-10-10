@@ -15,6 +15,8 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/listOneRecycler"
         android:layout_width="match_parent"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/custom_layout_for_list_one"
         android:layout_height="wrap_content"
         tools:ignore="MissingConstraints" />
 
