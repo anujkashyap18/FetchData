@@ -1,16 +1,16 @@
 package com.example.edutask.Activity;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
-
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.os.Build;
 import android.os.Bundle;
 import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import com.example.edutask.Adapter.ListOneAdapter;
 import com.example.edutask.R;
@@ -26,7 +26,6 @@ import java.util.List;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
-import retrofit2.http.Query;
 
 public class ListOneActivity extends AppCompatActivity implements SwipeRefreshLayout.OnRefreshListener{
 
@@ -95,7 +94,7 @@ public class ListOneActivity extends AppCompatActivity implements SwipeRefreshLa
                     listOneAdapter = new ListOneAdapter(all_dataList, ListOneActivity.this, ListOneActivity.this);
                     listOneRecycler.setAdapter(listOneAdapter);
 
-                    swipeRefreshLayout.setRefreshing(false);
+                    swipeRefreshLayout.setRefreshing ( false );
 
                 }
             }
