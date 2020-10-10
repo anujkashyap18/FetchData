@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "394466070807",
+    "firebase_url": "https://edutask-1595056777221.firebaseio.com",
+    "project_id": "edutask-1595056777221",
+    "storage_bucket": "edutask-1595056777221.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:394466070807:android:0540a8ce93314555d2a752",
+        "android_client_info": {
+          "package_name": "com.example.edutask"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "394466070807-3idvl811v1dog17895r6j5totlmhotte.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUmeRvFmnpN6kzhy0UYFFaXx1iEQSPgfw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "394466070807-3idvl811v1dog17895r6j5totlmhotte.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
